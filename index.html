@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <title>Pet Game</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Virtual Pet: Little Glowing Blob</h1>
+        <p>Take care of your virtual pet!</p>
+        
+        <div id="pet" class="pet"></div>
+        
+        <div class="status-bars">
+            <div class="status">
+                <label>Happiness:</label>
+                <div class="bar-container">
+                    <div id="happy-bar" class="bar happy-bar"></div>
+                </div>
+            </div>
+            <div class="status">
+                <label>Hunger:</label>
+                <div class="bar-container">
+                    <div id="hungry-bar" class="bar hungry-bar"></div>
+                </div>
+            </div>
+            <div class="status">
+                <label>Sleepiness:</label>
+                <div class="bar-container">
+                    <div id="sleepy-bar" class="bar sleepy-bar"></div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="buttons">
+            <button id="feed-btn">Feed</button>
+            <button id="play-btn">Play</button>
+            <button id="sleep-btn">Sleep</button>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>

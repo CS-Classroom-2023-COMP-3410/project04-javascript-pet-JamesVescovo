@@ -1,0 +1,81 @@
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .container {
+    max-width: 400px;
+    width: 100%;
+  }
+ 
+  .pet {
+    width: 150px;
+    height: 150px;
+    background-color: lightgreen;
+    border-radius: 50%;
+    margin: 0 auto 20px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .status-bars {
+    margin: 20px 0;
+  }
+  
+  .status {
+    margin-bottom: 10px;
+    text-align: left;
+  }
+  
+  .bar-container {
+    width: 100%;
+    height: 20px;
+    background-color: lightgrey;
+    overflow: hidden;
+  }
+  
+  .bar {
+    height: 100%;
+    width: 100%;
+    transition: width 0.3s ease;
+  }
+  
+  .happy-bar { 
+    background-color: green; 
+    }
+  .hungry-bar { 
+    background-color: orange; 
+    }
+  .sleepy-bar { 
+    background-color: skyblue; 
+    }
+  
+  .buttons {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+  }
+  
+  button {
+    margin: 0 5px;
+    padding: 10px 10px;
+    color: white;
+    transition: background-color 0.2s;
+  }
+
+  
+  #feed-btn { 
+    background-color: orange; 
+}
+  #play-btn { 
+    background-color: green; 
+}
+  #sleep-btn { 
+    background-color: skyblue; 
+}
+
+  
